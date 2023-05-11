@@ -123,6 +123,9 @@ We have already configured the huge pages `hugepagesz=1GB hugepages=64 default_h
 ```bash
 # please replace reviewer_x with your reviewer ID (e.g., reviewer_1)
 export BENCH_CLIENT_PATH=$AE_HOME/reviewer_x/client-script
+cd $BENCH_CLIENT_PATH
+# please replace reviewer_x with your reviewer ID (e.g., reviewer_1)
+sed -i 's/author/reviewer_x/g' env.sh
 ```
 
 On Intel server, enter your own directory.
@@ -131,6 +134,9 @@ We have already configured the huge pages `hugepagesz=1GB hugepages=64 default_h
 ```bash
 # please replace reviewer_x with your reviewer ID (e.g., reviewer_1)
 export BENCH_CLIENT_PATH=$AE_HOME/reviewer_x/client-script
+cd $BENCH_CLIENT_PATH
+# please replace reviewer_x with your reviewer ID (e.g., reviewer_1)
+sed -i 's/author/reviewer_x/g' env.sh
 ```
 
 ### Step-2: Automated Testing (Estimated 12 Hours on Each Server)
@@ -164,7 +170,8 @@ cd ./draw-figures
 Copy the evaluation raw results to the Intel machine. This script receives one parameter as the directory name of yours (e.g., `reviewer_1`). If no parameter is given, this script would copy data from `author`.
 
 ```bash
-./copy.sh reviewer_1
+# please replace reviewer_x with your reviewer ID (e.g., reviewer_1)
+./copy.sh reviewer_x
 # Executing `./copy.sh` is the same as executing `./copy.sh author`
 ```
 
