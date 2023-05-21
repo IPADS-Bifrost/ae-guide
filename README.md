@@ -163,8 +163,8 @@ cd $BENCH_CLIENT_PATH
 Clone the scripts for drawing figures on the Intel machine:
 
 ```bash
-git clone https://github.com/IPADS-Bifrost/ae-script.git -b draw-figures draw-figures
-cd ./draw-figures
+# please replace reviewer_x with your reviewer ID (e.g., reviewer_1)
+cd $AE_HOME/reviewer_x/draw-figures
 ```
 
 Copy the evaluation raw results to the Intel machine. This script receives one parameter as the directory name of yours (e.g., `reviewer_1`). If no parameter is given, this script would copy data from `author`.
