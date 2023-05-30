@@ -1,18 +1,18 @@
 # Setup-From-Scratch Guide
 
 <!--ts-->
-* [Setup From Scratch](#setup-from-scratch)
+* [Setup-From-Scratch Guide](#setup-from-scratch-guide)
    * [Hardware](#hardware)
+   * [Add SSH keys](#add-ssh-keys)
    * [Install Packages](#install-packages)
    * [Build From Source](#build-from-source)
    * [Host Kernel](#host-kernel)
    * [Network](#network)
-       * [Configure VF](#configure-vf)
-       * [Configure IP](#configure-ip)
-       * [Modify DPDK Scripts](#modify-dpdk-scripts)
+      * [Configure VF](#configure-vf)
+      * [Configure IP](#configure-ip)
+      * [Modify DPDK Scripts](#modify-dpdk-scripts)
    * [Test Scripts](#test-scripts)
    * [Note](#note)
-
 <!--te-->
 
 To reproduce the tests on your own machine, you can follow this guide to configure the machines. This guide is not a push-button style because some of the parameters such as path and PCI number differ from one machine to another. Please contact us if you encounter the unclear parts in this guide.
