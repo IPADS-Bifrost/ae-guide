@@ -15,13 +15,13 @@
    * [Note](#note)
 <!--te-->
 
-To reproduce the tests on your own machine, you can follow this guide to configure the machines. This guide is not a push-button style because some of the parameters such as path and PCI number differ from one machine to another. Please contact us if you encounter the unclear parts in this guide.
+To reproduce the evaluations on your own machine, you can follow this guide to configure the machines. This guide is not a push-button style because some of the parameters such as path and PCI number differ from one machine to another. Please contact us if you encounter the unclear parts in this guide.
 
 ## Hardware
 
 The Intel server should have at least 6 physical cores on a single NUMA node, with posted-interrupt support.
 
-The AMD server should have at least 6 physical cores on a single NUMA node. Our tests are conducted on an AMD Zen 3 server, with x2APIC enabled in BIOS and AVIC is not supported. If you reproduce the tests on an AVIC-enabled server (e.g., Zen 4), the results might differ a lot from our paper.
+The AMD server should have at least 6 physical cores on a single NUMA node. Our evaluations are conducted on an AMD Zen 3 server, with x2APIC enabled in BIOS and AVIC is not supported. If you reproduce the evaluations on an AVIC-enabled server (e.g., Zen 4), the results might differ a lot from our paper.
 
 ## Add SSH keys
 
@@ -130,7 +130,7 @@ PMD_CPU=85
 PMD_CPU_MASK=$( printf "0x%X%016X\n" $((3 << $(($PMD_CPU - 64)))) "0")
 ```
 
-## Test Scripts
+## Evaluation Scripts
 
 You should modify the following line of `$AE_HOME/client-script/env.sh` on the client machine.
 
@@ -159,4 +159,5 @@ taskset -c 80-87 $path_to_qemu \ # Change 80-87 to your isolated cores
 
 ## Note
 
-During the test, the modified DPDK and OvS would be installed to the system path. After the test, you should install the official version of them to the system path.
+During the experiments, the modified DPDK and OvS in our artifacts would be installed to the system path.
+If you have your own DPDK and OvS installed before the evaluation, you should re-install your own versions to the system path.
