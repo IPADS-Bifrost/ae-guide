@@ -56,7 +56,9 @@ These artifacts should present the breakdown results of the IO tax for network-i
 The following content guides the reproduction of Figure 2-3 and Figure 6-12 in the paper.
 
 To evaluate the artifacts in a **push-button** style, please send us your public keys via HotCRP to connect to an environment pre-configured by us.
-For simplicity, we provide all pre-built images. If you want to check their building from source, please refer to [build-from-source.md](./build-from-source.md).
+For simplicity, we provide all pre-built images on our machine.
+If you want to reproduce the tests on your own machine, please refer to [setup-from-scratch.md](./setup-from-scratch.md).
+If you want to check their building from source, please refer to [build-from-source.md](./build-from-source.md).
 
 > Note: Please be sure to hide your personal information at the end of the public key to keep anonymous!
 
