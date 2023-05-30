@@ -11,7 +11,7 @@
       * [Configure VF](#configure-vf)
       * [Configure IP](#configure-ip)
       * [Modify DPDK Scripts](#modify-dpdk-scripts)
-   * [Test Scripts](#test-scripts)
+   * [Evaluation Scripts](#evaluation-scripts)
    * [Note](#note)
 <!--te-->
 
