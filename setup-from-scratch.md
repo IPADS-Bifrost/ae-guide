@@ -1,4 +1,4 @@
-# Setup From Scratch Guide
+# Setup-From-Scratch Guide
 
 <!--ts-->
 * [Setup From Scratch](#setup-from-scratch)
