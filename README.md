@@ -160,6 +160,8 @@ cd $BENCH_CLIENT_PATH
 > Note: We will run a shared `soc_term` in a shared tmux session named `soc-term` to receive the console output from VMs and CVMs.
 > If you want to see the console output, please attach to this tmux session.
 
+To get a general idea of how the experiments are conducted and what the output means, please refer to [procedure-explanation.md](./procedure-explanation.md).
+
 ### Step-3: Generate Figures
 
 Clone the scripts for drawing figures on the Intel machine:
