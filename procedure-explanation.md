@@ -1,5 +1,9 @@
 # Explanation of the Test Procedure
 
+<!--ts-->
+
+<!--te-->
+
 This guide explains the test procedure of this AE, including tests scripts and the test output.
 
 In [Automated Testing](https://github.com/IPADS-Bifrost/ae-guide#step-2-automated-testing-estimated-12-hours-on-each-server) part of AE, `run.sh` is executed. `run.sh` would execute `bench.sh` and `breakdown.sh`. Both of them use `ssh` to boot the guest VM on the server machine and then start testing.
