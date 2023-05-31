@@ -1,7 +1,10 @@
 # Explanation of the Test Procedure
 
 <!--ts-->
-
+* [Explanation of the Test Procedure](#explanation-of-the-test-procedure)
+   * [Booting Guest VM](#booting-guest-vm)
+   * [Tests of Microbenchmark and Application](#tests-of-microbenchmark-and-application)
+   * [Tests of Breakdown](#tests-of-breakdown)
 <!--te-->
 
 This guide explains the test procedure of this AE, including tests scripts and the test output.
