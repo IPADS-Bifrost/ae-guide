@@ -53,7 +53,7 @@ These artifacts should present the breakdown results of the IO tax for network-i
 
 ## Evaluation Steps
 
-The following content guides the reproduction of Figure 2-3 and Figure 6-12 in the paper.
+The following content guides the reproduction of Figure 2-3 and Figure 6,7,9,11 in the paper.
 
 To evaluate the artifacts in a **push-button** style, please send us your public keys via HotCRP to connect to an environment pre-configured by us.
 For simplicity, we provide all pre-built images on our machine.
