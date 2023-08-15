@@ -115,6 +115,11 @@ Please jump to Step-1 if you have finished above copies locally.
 
 #### Download from GitHub and Zenodo
 
+**Update: the TLS certificate files (i.e., `server/client/redis.crt`) are expired now,
+please refer to [this guide](https://redis.io/docs/management/security/encryption/) to regenerate them and replace the old ones.**
+- Server side: under `/etc/tls` in guest virtual disk images
+- Client side: under `ae-script/tls` in `client-on-amd` and `client-on-intel` branches
+
 Please refer to [build-from-source.md](./build-from-source.md)
 
 ### Step-1: Setup Tests
